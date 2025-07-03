@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component should render the expected structure 1`] = `
+<div>
+  <div
+    class="mx-auto max-w-[520px] px-5"
+  >
+    <div>
+      Link
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout component should render the entire layout 1`] = `
+<div>
+  <main
+    class="grow py-6 md:py-12"
+  >
+    <div
+      class="mx-auto max-w-[520px] px-5"
+    >
+      Children
+    </div>
+  </main>
+</div>
+`;

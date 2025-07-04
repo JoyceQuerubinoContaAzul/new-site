@@ -8,6 +8,7 @@ export default cva(
         link: '!bg-transparent !border-transparent active:!bg-white active:shadow-sm',
         contained: '',
         outlined: '',
+        ghost: '!bg-transparent !border-transparent hover:bg-grayscale-semi-light active:bg-grayscale-light',
       },
       color: {
         primary:
@@ -60,6 +61,28 @@ export default cva(
       },
       {
         variant: 'link',
+        color: 'default',
+        className:
+          'text-blue-ca-dark hover:text-blue-ca active:text-blue-ca-dark',
+      },
+      {
+        variant: 'ghost',
+        color: 'primary',
+        className: 'text-primary hover:text-green active:text-green-dark',
+      },
+      {
+        variant: 'ghost',
+        color: 'secondary',
+        className:
+          'text-secondary hover:text-blue-ca-semi-light active:text-blue-ca-semi-dark',
+      },
+      {
+        variant: 'ghost',
+        color: 'danger',
+        className: 'text-red-semi-dark hover:text-red active:text-red-dark',
+      },
+      {
+        variant: 'ghost',
         color: 'default',
         className:
           'text-blue-ca-dark hover:text-blue-ca active:text-blue-ca-dark',
